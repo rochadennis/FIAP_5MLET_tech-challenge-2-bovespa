@@ -1,11 +1,11 @@
 # Tech Challenge - Pipeline Batch Bovespa
 
-Tech Challenge é o projeto da fase que englobará os conhecimentos obtidos em todas as disciplinas da fase.
+<br>Tech Challenge é o projeto da fase que englobará os conhecimentos obtidos em todas as disciplinas da fase.
 
-Pipeline Batch Bovespa: ingestão e arquitetura de dados
-Neste projeto deve se construir um pipeline de dados completo para extrair, processar e analisar dados do pregão da B3, utilizando AWS S3, Glue, Lambda e Athena. 
+<br>Pipeline Batch Bovespa: ingestão e arquitetura de dados
+<br>Neste projeto deve se construir um pipeline de dados completo para extrair, processar e analisar dados do pregão da B3, utilizando AWS S3, Glue, Lambda e Athena. 
 
-Para esse desafio, sua entrega deve conter os seguintes requisitos:
+<br>Para esse desafio, sua entrega deve conter os seguintes requisitos:
 <br><br>Requisito 1: scrap de dados do site da B3 com dados do pregão.
 <br>Requisito 2: os dados brutos devem ser ingeridos no s3 em formato parquet com partição diária.
 <br>Requisito 3: o bucket deve acionar uma lambda, que por sua vez irá chamar o job de ETL no glue.
